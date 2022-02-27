@@ -34,4 +34,4 @@ function* anotherGen() {
 const anotherMovieGen = anotherGen();
 const movie = anotherMovieGen.next();
 console.log(movie);
-anotherMovieGen.next("lol");
+anotherMovieGen.next("lol"); 
